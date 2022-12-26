@@ -1,7 +1,7 @@
 
 let starCount = 5000;
 let stars = [];
-let width = 900;
+let width =900;
 let height = 900;
 let starCol = 255;
 let spaceCol = 0;

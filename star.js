@@ -15,6 +15,7 @@ class Star {
       this.x = int(random(-width,width));
       this.y = int(random(-height,height));
       this.z = int(random(0,width));
+
     }
   }
 
@@ -29,7 +30,7 @@ class Star {
     else{
       starCol = 255;
       spaceCol = 0;
-    }
+    } 
     fill(starCol);
     ellipse(sx,sy,r,r);
 
